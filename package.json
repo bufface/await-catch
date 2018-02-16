@@ -1,8 +1,8 @@
 {
   "name": "await-catch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Async await wrapper for easy error handling",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "NODE_ENV=\"production\" babel src -d lib",
     "prepublish": "npm run build",
