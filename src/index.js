@@ -1,4 +1,4 @@
-const err = (promise) => {
+const err = async (promise) => {
   const handleError = err => [ err ];
   const handleSuccess = data => [null, data];
 
@@ -8,9 +8,12 @@ const err = (promise) => {
       .catch(handleError);
   }
 
-  return promise
-    .then(handleSuccess)
-    .catch(handleError);
+  try {
+    const data = await promise();
+    handleSuccess(data);
+  }catch(e){
+    handleError(e);
+  }
 };
 
 export default err;
