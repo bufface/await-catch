@@ -2,14 +2,8 @@ const err = async (promise) => {
   const handleError = err => [ err ];
   const handleSuccess = data => [null, data];
 
-  if (Array.isArray(promise)) {
-    return Promise.all(promise)
-      .then(handleSuccess)
-      .catch(handleError);
-  }
-
-  try {
-    const data = await promise();
+  try{
+    const data = (Array.isArray(promise)) ? await Promise.all(promise) : await promise();
     handleSuccess(data);
   }catch(e){
     handleError(e);
