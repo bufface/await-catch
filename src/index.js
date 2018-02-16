@@ -4,9 +4,9 @@ const err = async (promise) => {
 
   try{
     const data = (Array.isArray(promise)) ? await Promise.all(promise) : await promise();
-    handleSuccess(data);
+    return handleSuccess(data);
   }catch(e){
-    handleError(e);
+    return handleError(e);
   }
 };
 
