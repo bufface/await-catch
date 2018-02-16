@@ -52,3 +52,11 @@ async function asyncTasks() {
 ## License
 
 MIT © [Cristian Buffa](https://github.com/bufface)
+
+[downloads-image]: https://img.shields.io/npm/dt/parse-model-factory.svg
+
+[npm-url]: https://www.npmjs.com/package/parse-model-factory
+[npm-image]: http://img.shields.io/npm/v/parse-model-factory.svg
+
+[travis-url]: https://travis-ci.org/Fedeorlandau/parse-model-factory
+[travis-image]: https://travis-ci.org/Fedeorlandau/parse-model-factory.svg
