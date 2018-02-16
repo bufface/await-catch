@@ -34,13 +34,18 @@ import to from 'await-catch';
 
 async function asyncTasks() {
   let err, result;
-  
+
   [ err, result ] = await to([ userPromise(), tasksByUserPromise() ]);
   if (err) throw new Error('Some awesome Error message.');
-  
+
   return result;
 }
 ```
+
+## Contributors
+
+* [Federorlandau](https://https://github.com/Fedeorlandau)
+
 
 ## License
 
