@@ -1,5 +1,7 @@
 # await-catch
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Downloads][downloads-image]][npm-url]
+
 Async await wrapper for easy error handling
 > _This library is inspired by [Dima Grossman](http://blog.grossman.io) && Tomer Barnea work. For more info about this approach, please check these links_
 > * [_How to write async await without try-catch blocks in Javascript_](https://blog.grossman.io/how-to-write-async-await-without-try-catch-blocks-in-javascript/)
