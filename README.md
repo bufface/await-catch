@@ -53,10 +53,10 @@ async function asyncTasks() {
 
 MIT © [Cristian Buffa](https://github.com/bufface)
 
-[downloads-image]: https://img.shields.io/npm/dt/parse-model-factory.svg
+[downloads-image]: https://img.shields.io/npm/dt/await-catch.svg
 
-[npm-url]: https://www.npmjs.com/package/parse-model-factory
-[npm-image]: http://img.shields.io/npm/v/parse-model-factory.svg
+[npm-url]: https://www.npmjs.com/package/await-catch
+[npm-image]: http://img.shields.io/npm/v/await-catch.svg
 
-[travis-url]: https://travis-ci.org/Fedeorlandau/parse-model-factory
-[travis-image]: https://travis-ci.org/Fedeorlandau/parse-model-factory.svg
+[travis-url]: https://travis-ci.org/bufface/await-catch
+[travis-image]: https://api.travis-ci.org/bufface/await-catch.svg?branch=master
