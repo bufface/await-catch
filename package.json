@@ -16,7 +16,8 @@
     "try-catch",
     "try",
     "catch",
-    "es6"
+    "es6",
+    "promise"
   ],
   "bugs": {
     "url": "https://github.com/bufface/await-catch/issues",
