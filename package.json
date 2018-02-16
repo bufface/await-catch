@@ -6,6 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Cristian Buffa",
+  "keywords": [
+    "async-await",
+    "async",
+    "catch",
+    "try-catch",
+    "try",
+    "catch",
+    "es6"
+  ],
+  "bugs": {
+    "url": "https://github.com/bufface/await-catch/issues",
+    "email": "bufface@gmail.com"
+  },
+  "homepage": "https://github.com/bufface/await-catch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bufface/await-catch"
+  },
+  "author": "Cristian Buffa <bufface@gmail.com> (https://github.com/bufface)",
   "license": "MIT"
 }
