@@ -1,6 +1,6 @@
 # Await-catch
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Async await wrapper for easy error handling
 > _This library is inspired by [Dima Grossman](http://blog.grossman.io) && Tomer Barnea work. For more info about this approach, please check these links_
@@ -52,6 +52,8 @@ async function asyncTasks() {
 ## License
 
 MIT © [Cristian Buffa](https://github.com/bufface)
+
+[downloads-image]: https://img.shields.io/npm/dt/await-catch.svg
 
 [npm-url]: https://www.npmjs.com/package/await-catch
 [npm-image]: http://img.shields.io/npm/v/await-catch.svg
