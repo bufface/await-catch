@@ -19,10 +19,10 @@ npm i await-catch --save
 ```javascript
 import to from 'await-catch';
 
-async function asyncTask() {
+async function asyncTask(values) {
      let err, user;
 
-     [ err, user ] = await to(userPromise());
+     [ err, user ] = await to(userPromise(values));
      if(err) throw new Error('Some awesome Error message.');
 
      return user;
@@ -34,10 +34,10 @@ async function asyncTask() {
 ```javascript
 import to from 'await-catch';
 
-async function asyncTasks() {
+async function asyncTasks(params) {
   let err, result;
 
-  [ err, result ] = await to([ userPromise(), tasksByUserPromise() ]);
+  [ err, result ] = await to([ userPromise(), tasksByUserPromise(params) ]);
   if (err) throw new Error('Some awesome Error message.');
 
   return result;
