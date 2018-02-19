@@ -1,16 +1,10 @@
-const err = (promise) => {
-  const handleError = err => [ err ];
-  const handleSuccess = data => [ null, data ];
-  
-  if (Array.isArray(promise)) {
-    return Promise.all(promise)
-      .then(handleSuccess)
-      .catch(handleError);
+const error = async (promise) => {
+  try {
+    const data = Array.isArray(promise) ? await Promise.all(promise) : await promise;
+    return [ null, data ];
+  } catch (err) {
+    return [ err ];
   }
-  
-  return promise
-    .then(handleSuccess)
-    .catch(handleError);
 };
 
-export default err;
+export default error;
