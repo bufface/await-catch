@@ -11,13 +11,6 @@ const err = (promise) => {
   return promise
     .then(handleSuccess)
     .catch(handleError);
-  
-  // try{
-  //   const data = (Array.isArray(promise)) ? Promise.all(promise) : promise();
-  //   return handleSuccess(data);
-  // }catch(e){
-  //   return handleError(e);
-  // }
 };
 
 export default err;
