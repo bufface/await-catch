@@ -1,4 +1,4 @@
-const error = async (promise) => {
+module.exports = async (promise) => {
   try {
     const data = Array.isArray(promise) ? await Promise.all(promise) : await promise;
     return [ null, data ];
@@ -6,5 +6,3 @@ const error = async (promise) => {
     return [ err ];
   }
 };
-
-export default error;
