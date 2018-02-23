@@ -46,7 +46,7 @@ async function asyncTasks(params) {
 
 ## Contributors
 
-* [Federorlandau](https://https://github.com/Fedeorlandau)
+* [Fedeorlandau](https://github.com/Fedeorlandau)
 
 
 ## License
