@@ -1,5 +1,5 @@
-const to = require('../src/index');
-const expect = require('chai').expect;
+import { expect } from 'chai';
+import to from '../src/index';
 
 async function promise(value) {
   return Promise.resolve(value);
